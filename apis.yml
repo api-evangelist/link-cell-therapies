@@ -1,23 +1,81 @@
 aid: link-cell-therapies
 name: Link Cell Therapies
-description: Link Cell Therapies is a company surfaced as a portfolio company of wing-venture-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Link Cell Therapies is a South San Francisco clinical-stage cell therapy company founded
+  by Stanford investigators Robbie Majzner and Crystal Mackall in partnership with Samsara BioCapital,
+  working on the development of safe and effective CAR T agents for patients with solid tumors. The
+  company's logic-gate technology produces AND-gate CAR T cells that require co-expression of two cancer
+  targets before driving cell cytotoxicity, giving greater tumor specificity than existing logic-gate
+  approaches and aiming to avoid off-tumor toxicity. Alongside additional platforms under development,
+  Link is advancing therapeutic programs across solid tumors and certain hematologic cancers, including
+  a dual-targeting AND-gated CAR program (LNK001) directed at clear cell renal cell carcinoma, and in
+  January 2026 entered a strategic collaboration with Johnson & Johnson to develop logic-gate LINK CAR
+  T therapies. Link Cell Therapies publishes no public API, developer portal, or machine-readable
+  interface; this profile captures company identity and probed public-surface posture only.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://linkcelltx.com/wp-content/uploads/2023/04/linkcell-logo.png
 url: https://raw.githubusercontent.com/api-evangelist/link-cell-therapies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - wing-venture-capital
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Life Sciences
+- Cell Therapy
+- CAR T
+- Oncology
+- Immunotherapy
+- Precision Medicine
+- Clinical Stage
 apis: []
+common:
+- type: DomainSecurity
+  url: security/link-cell-therapies-domain-security.yml
+- type: Website
+  url: https://linkcelltx.com/
+- type: About
+  url: https://linkcelltx.com/about/
+- type: Team
+  url: https://linkcelltx.com/team/
+- type: News
+  url: https://linkcelltx.com/news/
+- type: Contact
+  url: https://linkcelltx.com/contact/
+- type: PrivacyPolicy
+  url: https://linkcelltx.com/privacy-policy/
+- type: Careers
+  url: https://linkcelltx.com/careers/
+- type: Investors
+  url: https://linkcelltx.com/investors/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/linkcelltx/
+- type: WellKnown
+  url: well-known/link-cell-therapies-well-known.yml
+- type: LLMsTxt
+  url: llms/link-cell-therapies-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
