@@ -1,0 +1,47 @@
+# Link Cell Therapies
+
+> Clinical-stage cell therapy company in South San Francisco developing AND-gate logic-gated CAR T
+> cell therapies for solid tumors and certain hematologic cancers. Founded by Stanford investigators
+> Robbie Majzner and Crystal Mackall in partnership with Samsara BioCapital.
+
+Link Cell Therapies' logic-gate technology builds CAR T cells that require co-expression of two
+cancer targets before driving cell cytotoxicity, providing greater tumor specificity than existing
+logic-gate technologies and aiming to avoid off-tumor toxicity. Lead disclosed program: LNK001, a
+dual-targeting AND-gated CAR directed at clear cell renal cell carcinoma. In January 2026 the company
+entered a strategic collaboration with Johnson & Johnson to develop logic-gate LINK CAR T therapies.
+
+Headquarters: 220 E. Grand Avenue, South San Francisco, CA 94080
+Contact: contact@linkcelltx.com — Careers: careers@linkcelltx.com
+
+## API surface
+
+Link Cell Therapies publishes NO public API. There is no developer portal, no API documentation, no
+OpenAPI/AsyncAPI/GraphQL specification, no SDKs or client packages, no CLI, no MCP server, no webhook
+or event surface, and no /.well-known/ discovery endpoints. The public web presence is a WordPress
+corporate marketing site. Do not attempt to construct or infer an API for this company.
+
+## Company
+
+- [Home](https://linkcelltx.com/): Company overview — "A True CAR T Cell AND-Gate"
+- [About](https://linkcelltx.com/about/): Founding, logic-gate platform, therapeutic strategy
+- [Leadership](https://linkcelltx.com/team/): Executive and scientific leadership biographies
+- [Resources / News](https://linkcelltx.com/news/): Press releases and scientific posters
+- [Investors](https://linkcelltx.com/investors/): Investor listing
+- [Careers](https://linkcelltx.com/careers/): Open roles
+- [Contact](https://linkcelltx.com/contact/): Address and contact addresses
+- [Privacy Policy](https://linkcelltx.com/privacy-policy/)
+- [LinkedIn](https://www.linkedin.com/company/linkcelltx/)
+
+## Announcements
+
+- 2026-01-09: Strategic collaboration with Johnson & Johnson to develop logic-gate LINK CAR T therapies
+- 2025-12-15: Company launch, advancing CAR-T therapies in solid and liquid tumors
+- 2023-03-20: Foundational publication in Nature on CAR T cell technology designed to kill cancers
+  without off-tumor toxicity
+
+## Optional
+
+- [API Evangelist profile](https://apis.io/provider/link-cell-therapies/)
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/link-cell-therapies/refs/heads/main/apis.yml)
+
+<!-- generated: 2026-07-19 | method: generated | source: apis.yml + https://linkcelltx.com/ -->

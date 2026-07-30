@@ -1,0 +1,51 @@
+generated: '2026-07-19'
+method: probed
+source: https://linkcelltx.com/
+name: Link Cell Therapies Well-Known Endpoints
+description: Probe of the standard /.well-known/ discovery surface on the Link Cell Therapies
+  corporate host. No endpoint returned 200 — the company runs a WordPress marketing site with
+  no API, OAuth, or agent-facing discovery surface. Absence is a valid, recorded result.
+host: linkcelltx.com
+probed: '2026-07-19'
+endpoints:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- path: /llms.txt
+  status: 404
+  file: null
+- path: /openapi.json
+  status: 404
+  file: null
+- path: /swagger.json
+  status: 404
+  file: null
+- path: /asyncapi.yaml
+  status: 404
+  file: null
+- path: /robots.txt
+  status: 200
+  file: null
+  note: standard WordPress/Yoast robots.txt, no API references
+- path: /sitemap.xml
+  status: 200
+  file: null
+  note: Yoast SEO sitemap index, 8 marketing pages plus leadership/news posts
+findings:
+  well_known_endpoints_found: 0
+  security_txt: false
+  oauth_metadata: false
+  api_catalog: false
+  llms_txt: false
