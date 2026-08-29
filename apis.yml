@@ -11,6 +11,17 @@ description: Link Cell Therapies is a South San Francisco clinical-stage cell th
   January 2026 entered a strategic collaboration with Johnson & Johnson to develop logic-gate LINK CAR
   T therapies. Link Cell Therapies publishes no public API, developer portal, or machine-readable
   interface; this profile captures company identity and probed public-surface posture only.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
