@@ -43,7 +43,7 @@ x-tier: stub
 x-tier-reason: no-public-api-surface
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Biotechnology
@@ -66,6 +66,8 @@ tags_raw:
 - Clinical Stage
 apis: []
 common:
+- url: https://linkcelltx.com/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/link-cell-therapies-domain-security.yml
 - type: Website
